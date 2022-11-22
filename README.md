@@ -10,9 +10,9 @@ IMLS_analysis_code.r - An R script which performs all analyses and produces all 
 IMLS_all_species_raw.csv - A dataset containing relative abundance cover data for plant species across 5 samples of 10 transects, with 5 quadrats per transect. Species are rows. The spreadsheet contains the following columns:
 
 `
-sp_id	- species identificaiton number. Integers 1-356. Each taxon has a unique sp_id including those not identified to species level.\
-family - taxonomic designation of plant family based on Ladd and Thomas 2015 for Missouri.
-seeded_1_2	- factor with levels "yes", or "no" indicating if a species was added to the seed mix for transects 1 through 2.\
+sp_id	- species identificaiton number. Integers 1-356. Each taxon has a unique sp_id including those not identified to species level. <br/>
+family - taxonomic designation of plant family based on Ladd and Thomas 2015 for Missouri. <br/>
+seeded_1_2	- factor with levels "yes", or "no" indicating if a species was added to the seed mix for transects 1 through 2. <br/>
 seeded_3_6	- factor with levels "yes", or "no" indicating if a species was added to the seed mix for transects 3 through 6.\
 seeded_7_10	- factor with levels "yes", or "no" indicating if a species was added to the seed mix for transects 7 through 10.\
 native	- factor with levels "yes", or "no" indicating if a species is native to the study region in MO, USA.\
